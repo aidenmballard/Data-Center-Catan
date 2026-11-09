@@ -10,7 +10,7 @@ public class Main {
         // Sets window settings
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
-        window.setTitle("Game Setup");
+        window.setTitle("Data Center Catan");
 
         // Adds the panel
         GamePanel game = new GamePanel();
@@ -21,6 +21,7 @@ public class Main {
 
         // Adds window
         window.setLocationRelativeTo(null);
+        window.setExtendedState(JFrame.MAXIMIZED_BOTH);
         window.setVisible(true);
     }
 }
