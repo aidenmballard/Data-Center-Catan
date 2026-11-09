@@ -21,7 +21,7 @@ public class Tile {
         this.radius = radius;
         int[] xPoints = new int[6];
         int[] yPoints = new int[6];
-        this.rollNumber = rollNumber
+        this.rollNumber = rollNumber;
 
         for (int i = 0; i < 6; i++) {
             double angle = Math.toRadians(i * 60 + 30);
