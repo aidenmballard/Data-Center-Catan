@@ -15,6 +15,7 @@ public class Tile {
     // Defines the polygon to draw
     Polygon hexagon;
 
+    // Constructor for the tile class
     public Tile(int x, int y, int radius, String type, int rollNumber) {
         this.x = x;
         this.y = y;
